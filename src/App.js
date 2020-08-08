@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Login from './components/Login.js';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Geet</h1>
+    // BEM convention
+    <div className="app">
+      <Login />
     </div>
   );
 }
