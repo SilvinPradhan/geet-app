@@ -5,7 +5,7 @@ function Login() {
     return (
         <div className='login'>
             <img src="https://image.flaticon.com/icons/svg/1040/1040239.svg" alt="Logo" />
-            <a>LOGIN WITH GEET</a>
+            <a href="/">LOGIN WITH GEET</a>
         </div>
     )
 }
