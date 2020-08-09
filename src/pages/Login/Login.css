@@ -1,5 +1,4 @@
 .login {
-    margin-top: 10px;
     height: 100vh;
     background-color: black;
     display: grid;
@@ -9,6 +8,7 @@
 }
 
 .login > img {
+    margin-top: 10px;
     height: 200px;
     width: 200px;
 }
