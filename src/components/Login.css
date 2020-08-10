@@ -7,12 +7,10 @@
     margin-right: auto;
     place-items: center;
 }
-
 .login > img {
     height: 200px;
     width: 200px;
 }
-
 .login > a {
     padding: 20px;
     border-radius: 99px;
