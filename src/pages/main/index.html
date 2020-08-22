@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <aside class="f-panel"> <!--Side Panel-->
+    <aside class="f-panel">
+        <!--Side Panel-->
         <ul>
             <li>Home <i class="fal fa-home-lg"></i></li>
             <li>My Music <i class="fal fa-user-music"></i></li>
@@ -20,33 +21,58 @@
             <li>Discover <i class="fad fa-headphones-alt"></i></li>
             <li>Podcasts <i class="fas fa-podcast"></i></li>
             <li>Devices <i class="fal fa-tv-music"></i></li>
-        </aside>
+    </aside>
     </nav>
-    <div id="main-wrapper"> <!--Main wrapper for content-->
-        <nav class="container-fluid bg-dark sticky-top"> <!--Top Navigation container-->
+    <div id="main-wrapper">
+        <!--Main wrapper for content-->
+        <nav class="container-fluid bg-dark sticky-top">
+            <!--Top Navigation container-->
             <div id="nav-wrapper" class="navbar navbar-dark  row">
-                <div class="col-md-2 container-fluid"><!--App and User Icon container-->
-                    <div class="row"> 
+                <div class="col-md-2 container-fluid">
+                    <!--App and User Icon container-->
+                    <div class="row">
                         <div class="nav-ct col-4 align-center">
-                           <i class="fal fa-music" id="header-icon"></i>
+                            <i class="fal fa-music" id="header-icon"></i>
                         </div>
-                        <div class="nav-user d-flex flex-row col-8"> 
+                        <div class="nav-user d-flex flex-row col-8">
                             <i class="fal fa-user"></i>
-                            <p class = "nav-user-info">Hi, User</p>.
+                            <p class="nav-user-info">Hi, User</p>.
                         </div>
-                    </div>                   
-                </div>            
-                <div class="nav-middle d-flex flex-row col-md-6"> <!--Trending container-->
+                    </div>
+                </div>
+                <div class="nav-middle d-flex flex-row col-md-6">
+                    <!--Trending container-->
                     <p class="">Trending</p>
                     <p>Don't Cry For Me (with Jason Derulo) Alok, Martin Jensen, Jason Derulo.</p>
                 </div>
-                <form action="_blank" class="col-md-4"> <!--Search Container-->
+                <form action="_blank" class="col-md-4">
+                    <!--Search Container-->
                     <input type="text" class="form-control" placeholder="Search For Music" aria-label=""
                         aria-describedby="basic-addon1">
                 </form>
-                
+
             </div>
         </nav>
+    </div>
+
+    <div id="player" class="navbar fixed-bottom container-fluid">
+        <div class="player-wrapper row">
+            <div class="player-next container-fluid">
+                <!--Previous Item-->
+                <div class="player-next-card row">
+                        <img src="src/img/artist-1.jpg" alt="" class="player-card-image col-md-4">
+                    <div class="player-card-info col-md-6 d-flex flex-column justify-content-center">
+                        <h6 class="player-card-name">BLINDING LIGHTS</h4>
+                        <h7 class="player-card-artist">The WEEKND</h5>
+                    </div>
+                    <div class="player-card-control col-md-2">
+                        <i class="far fa-angle-right"></i>                    
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
     </div>
 
 </body>

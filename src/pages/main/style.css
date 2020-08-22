@@ -65,10 +65,14 @@ body {
     border-width: 1px;
     color: white;
     -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline: none;
 }
 #nav-wrapper input:focus {
-      width: 100%;
+    width: 100%;
+    -webkit-box-shadow: none;
+    0box-shadow: none;
+
 }
 #nav-wrapper ::-webkit-input-placeholder {
     letter-spacing: .075rem;
@@ -130,10 +134,45 @@ body {
     font-size: 20px;
 }
 
-
-
-
-
+#player {
+    background: rgba(0, 0, 0, 0.692);
+    padding: 0;
+}
+.player-wrapper {
+    width: 100%;
+}
+.player-next-card {
+    background: rgba(6, 201, 168, 0.808);
+    width: 25%;
+}
+.player-card-img {
+    width: min-content;
+}
+.player-card-image {
+    height: 50px;
+    width: 60px;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+.player-card-info {
+    padding: 0.2rem;
+    color: white;
+}
+.player-card-name, .player-card-artist {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: auto 0;
+}
+.player-card-artist {
+    font-size: .8rem;
+}
+.player-card-control i {
+    font-size: 20px;
+    position: relative;
+    top: 25%;
+    color: white;
+}
 
 
 /* Responsive */
